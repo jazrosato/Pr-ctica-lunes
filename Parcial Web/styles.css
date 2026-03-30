@@ -1,0 +1,49 @@
+body {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10%; /* espacio de arriba*/
+
+}
+
+h1 {
+    font-family: "DM Serif Text", serif;
+    color: cadetblue;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Funnel Display", sans-serif;
+    color: rgb(203, 138, 188);
+    margin: 0;
+    font-style: italic;
+    text-decoration: underline;  /*juga ahora*/
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+  border: 1;
+}
+
+img {
+  width: 150px;
+}
+
+/* img{
+transition: all 1s;
+}
+
+.esconder: translatex (-200%)
+
+img:hover {
+transfrom: scale (1.1)*/
+
+img:hover {
+  transform: scale(1.1)
+
+}
